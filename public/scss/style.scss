@@ -1,0 +1,256 @@
+$primary-color: #4cc2b6;
+$primary-color-dark: #3d9b92;
+$primary-color-light:#a7e4de;
+$font-color-1:#463662;
+$font-color-1-light:#61527c;
+$secondary-color: #fcedc2;
+$dashed-boxs: #9e7e22;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow: hidden;
+}
+.left-side{
+    background: #cfffe078;
+    padding-left: 48px;
+    padding-top: 29px;
+
+    padding-right: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side{
+    background: #fff9cfa3;
+    padding-left: 29px;
+    padding-top: 29px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side, .left-side{
+    padding-bottom:67px;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.overlayy{
+    position: absolute;
+    height: 100%;
+    width: 100%;   
+
+}
+
+.demooo{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    opacity: 1;
+    top:0;
+}
+.logo{
+    zoom: 0.667;
+}
+
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.4rem 0.7rem !important;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #3d9b92ba;
+    border: unset;
+    color: $primary-color-light;
+}
+.progessive-bar{
+    border-left: 3px solid #a7e4de96 !important;
+    border-right: 3px solid #a7e4de96 !important;
+    width:144px;
+    text-align: center;
+    span{
+        color: white !important;
+    }
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.sectioner{
+    background: #1b726a99;
+    width: 100%;
+    height: 179px;
+    flex-grow:1;
+    border: dashed 2px #26635e;
+}
+
+.question{
+    width: 100%;
+    height: fit-content;
+}
+
+.question-title{
+    text-transform: uppercase;
+    text-align: center;
+    .square{
+        background: #fff5d7;
+        border: dashed 2px $dashed-boxs;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 1px;
+        padding-left: 2px;
+        border-radius: 3px;
+    }
+    color: $font-color-1;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.m-b-30{
+    margin-bottom: 30px;
+}
+
+.fields{
+
+    .field {
+        border: dashed 2px $dashed-boxs;
+        float: left;
+        width: 32.7%;
+        border-radius: 0.25rem !important;
+        background: #fff5d7;
+    }
+    
+    .field:before {
+        content: "";
+        display: block;
+
+        
+    }
+    bottom: 0;
+    width: 100%;
+    flex-grow: 1
+}
+
+.p-x-2 {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+.absolute-bottom{
+    flex-grow: 1;
+}
+
+
+.embed-responsive-16by9, .question-image{
+    height: 272px;
+}
+
+.question-image{
+    img{
+        zoom: 0.75;
+        margin-bottom: 35px;
+    }
+}
+
+.w-140{
+    width: 140px;
+    zoom: 0.9;
+}
+
+.o-title{
+    opacity: 0.2;
+}
+
+
+
+.btn-secondary {
+    color: #fff;
+    background-color: $font-color-1;
+    border-color: $font-color-1;
+    font-weight: 600;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: $font-color-1-light;
+    border-color: $font-color-1-light;
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+    background-color: #868e96;
+    border-color: #868e96;
+}
+
+.page-link:hover {
+    background-color: #a7e4de69;
+    border-color: #a7e4de69;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    z-index: 10;
+    margin: 0 auto;
+  }
+  .middle-banner{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    z-index: 10;
+    margin: 0 auto;
+    height: 350px;
+  }
+  .middle-banner h2{
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+.custom-card-1{
+    padding: 28px 28px;
+}
+
+h1.display-4.text-bold.c-w.m-0{
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.upper-case{
+    text-transform: uppercase;
+}
+
+.fireworks{
+    width: 1280px;
+    z-index: 1000;
+    height: 653px;
+    position: absolute;
+    top: 0;
+}
+
